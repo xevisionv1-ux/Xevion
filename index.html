@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>xevion1 — Neon Hacker Theme</title>
+<style>
+  :root{
+    --bg:#020305;
+    --panel: rgba(255,255,255,0.03);
+    --neon1: #39FF14; /* green */
+    --neon2: #00F2FF; /* cyan */
+    --neon3: #FF3BFF; /* magenta */
+    --accent: #FF6B6B;
+    --glass: rgba(255,255,255,0.03);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;font-family: "Fira Code", "Courier New", monospace;background:var(--bg);color:#cfeee9}
+  .container{max-width:1100px;margin:28px auto;padding:22px;position:relative;z-index:2}
+  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:26px;border:1px solid rgba(255,255,255,0.04);backdrop-filter: blur(6px)}
+  .top {display:flex;gap:18px;align-items:center}
+  .logo{width:84px;height:84px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--neon1);font-size:22px;background:linear-gradient(135deg,#071212,#0d2321);box-shadow: 0 8px 30px rgba(0,0,0,0.7), inset 0 0 24px rgba(57,255,20,0.02)}
+  h1{margin:0;font-size:38px;letter-spacing:1px}
+  .subtitle{margin-top:6px;font-size:15px;color:#9fd8c8}
+  /* Per-letter neon */
+  .neon-title{font-size:36px;font-weight:800;display:inline-block}
+  .neon-title .ltr{display:inline-block;padding:0 2px;animation: hue 4s linear infinite, floaty 3s ease-in-out infinite; text-shadow:0 0 6px rgba(57,255,20,0.85), 0 0 18px rgba(0,242,255,0.12), 0 0 36px rgba(255,51,255,0.06)}
+  @keyframes hue {0%{filter:hue-rotate(0deg)}25%{filter:hue-rotate(80deg)}50%{filter:hue-rotate(160deg)}75%{filter:hue-rotate(240deg)}100%{filter:hue-rotate(360deg)}}
+  @keyframes floaty {0%{transform:translateY(0)}50%{transform:translateY(-3px) scale(1.02)}100%{transform:translateY(0)}}
+  .controls{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+  button {background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;cursor:pointer;color:inherit}
+  .matrix{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.15;background-image:repeating-linear-gradient(180deg, rgba(0,255,80,0.02) 0 1px, transparent 1px 12px);mix-blend-mode:screen}
+  .lead{color:#9fd8c8;margin-top:10px}
+  .grid{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+  .box{flex:1;min-width:220px;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.012), rgba(255,255,255,0.008));border:1px solid rgba(255,255,255,0.03)}
+  .typewriter{font-family:monospace;color:var(--neon2);margin-top:10px;white-space:nowrap;overflow:hidden;border-right:3px solid var(--neon1);width:22ch;animation: typing 3s steps(22) 1, blink 0.8s step-end infinite}
+  @keyframes typing {from{width:0} to{width:22ch}} @keyframes blink {50%{border-color:transparent}100%{border-color:var(--neon1)}}
+  footer{margin-top:18px;color:#79c4b0;font-size:13px}
+  /* dark/light toggle (simple) */
+  .theme-toggle{margin-left:auto}
+  /* episode list */
+  .episodes{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+  .ep{background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(255,255,255,0.01));padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);min-width:220px}
+  .ep h4{margin:6px 0 8px 0;font-size:15px}
+  /* responsive */
+  @media(max-width:720px){h1{font-size:24px}.neon-title{font-size:22px}}
+</style>
+</head>
+<body>
+  <div class="matrix" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="card">
+      <div class="top">
+        <div class="logo">Xv</div>
+        <div>
+          <h1 id="mainTitle"><span class="neon-title" id="neon">xevion1 — Hacker & Programming Series</span></h1>
+          <div class="subtitle">Future-tech visuals • Neon tutorials • Story-driven code</div>
+          <div class="typewriter" id="typewriter">Neon nights. Code stories. Future hacks.</div>
+        </div>
+        <div class="theme-toggle">
+          <button onclick="toggleTheme()">Toggle Light</button>
+        </div>
+      </div>
+
+      <p class="lead">A minimal, neon hacker theme: per-letter glow, matrix atmosphere, typewriter subtitle, contact actions, and episode cards.</p>
+
+      <div class="controls">
+        <button onclick="copyText('xevion1@gmail.com')">Copy Email</button>
+        <button onclick="copyText('+263780667006')">Copy WhatsApp</button>
+        <a href="https://wa.me/263780667006" target="_blank" rel="noopener"><button>Message on WhatsApp</button></a>
+      </div>
+
+      <div class="grid">
+        <div class="box">
+          <h3 style="color:var(--neon1)">About</h3>
+          <p>Neon, cyberpunk, and educational content. Use this as a landing, YouTube intro page, or a series hub.</p>
+        </div>
+        <div class="box">
+          <h3 style="color:var(--neon2)">Features</h3>
+          <ul>
+            <li>Per-letter animated neon title</li>
+            <li>Matrix background overlay</li>
+            <li>Typewriter subtitle</li>
+            <li>Episode cards + easy add</li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3 style="color:var(--neon3)">Contact</h3>
+          <p>WhatsApp: <strong>+263 780 667 006</strong></p>
+          <p>Email: <strong>xevion1@gmail.com</strong></p>
+        </div>
+      </div>
+
+      <section class="episodes" id="episodes">
+        <article class="ep">
+          <h4>Episode 01 — Terminal Aesthetics</h4>
+          <p>Decorative banners, fish-shell tips, and neon ASCII art.</p>
+        </article>
+        <article class="ep">
+          <h4>Episode 02 — Visual Hacks</h4>
+          <p>Matrix canvas, neon type, and glitch effects.</p>
+        </article>
+      </section>
+
+      <footer>© xevion1 • Neon Hacker Theme</footer>
+    </div>
+  </div>
+
+<script>
+  // Split title into per-letter spans for animation
+  (function splitTitle(){
+    const el = document.getElementById('neon');
+    const text = el.textContent;
+    el.textContent = '';
+    for(let i=0;i<text.length;i++){
+      const ch = text[i];
+      const span = document.createElement('span');
+      span.className = 'ltr';
+      span.textContent = ch === ' ' ? '\u00A0' : ch;
+      span.style.animationDelay = (i*0.06)+'s';
+      el.appendChild(span);
+    }
+  })();
+
+  function copyText(txt){
+    navigator.clipboard?.writeText(txt).then(()=>{ alert('Copied: '+txt) }).catch(()=>{ prompt('Copy manually:',txt) });
+  }
+
+  // Typewriter (already CSS, but small fallback)
+  // Theme toggle - simple invert
+  function toggleTheme(){
+    const root = document.documentElement;
+    if(root.style.getPropertyValue('--bg') === '#ffffff'){
+      root.style.setProperty('--bg','#020305');
+      document.body.style.background = '#020305';
+    } else {
+      root.style.setProperty('--bg','#ffffff');
+      document.body.style.background = '#ffffff';
+    }
+  }
+
+  // Small console banner
+  console.log('%c xevion1 — Neon Hacker Theme','background:#000;color:#39FF14;padding:6px;border-radius:4px;font-weight:bold');
+</script>
+</body>
+</html>
