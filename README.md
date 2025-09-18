@@ -1,87 +1,81 @@
-# ⚡ xevion1 — Hacker & Programming Series ⚡
+# ⚡ <span style="color:#39FF14">xevion1</span> — <span style="color:cyan">Hacker & Programming Series</span> ⚡
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=39FF14&width=480&lines=Welcome+to+the+Neon+World;Hacker+%26+Programming+Series;Digital+Rebellion+By+xevion1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=Future+Hacks;Cyberpunk+Programming;Neon+Rebellion;Digital+Reality+by+xevion1" alt="Typing SVG" />
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 <span style="color:#FF073A">Who is xevion1?</span>
 
-I’m **xevion1** — a hacker in spirit, a programmer by craft.  
-I mix **code + art + story** into neon-colored projects that feel alive.  
+I am <span style="color:#39FF14">**xevion1**</span> — a hacker forged in neon and code,  
+a <span style="color:cyan">**future-tech explorer**</span> where reality and digital collide.  
 
-This repo is home to my **Hacker & Programming Series**, where I share:  
-- ⚡ **Decorative hacker HTML templates**  
-- ⚡ **Neon terminal banners**  
-- ⚡ **Story-driven programming guides**  
-- ⚡ **Glitch-style visuals & matrix animations**  
-
----
-
-## 🕶️ My Hacks
-
-My “hacks” aren’t about destruction — they’re about **creation, discovery, and bending systems to my will**.  
-Here are some of the hacks I’ve built or experimented with:
-
-🔹 **Terminal Hacks** — Custom banners, fish-shell setups, glowing ASCII art intros.  
-🔹 **Visual Hacks** — Matrix-style backgrounds, neon-glow animations, and glitch typography.  
-🔹 **App Hacks** — Turning simple HTML/CSS into APK apps with free tools.  
-🔹 **Story Hacks** — Mixing narrative with code, inspired by cyberpunk and Mr. Robot.  
-🔹 **Learning Hacks** — Making programming look and feel *exciting*, not boring.  
-
-Every “hack” is a way of **remixing technology** — taking something ordinary and making it extraordinary.
+This is my **Hacker & Programming Series** where:  
+- ⚡ <span style="color:#39FF14">Neon terminals</span> meet <span style="color:magenta">AI scripts</span>  
+- ⚡ <span style="color:cyan">Matrix glitches</span> meet <span style="color:#FF073A">quantum vibes</span>  
+- ⚡ Code becomes <span style="color:magenta">story</span>, story becomes <span style="color:#39FF14">rebellion</span>  
 
 ---
 
-## 🌌 My Origin Story
+## 🛠️ <span style="color:magenta">My Hacks — FUTURE TECH ⚡</span>
 
-Like Mr. Robot, I saw how fragile systems are.  
-But unlike his chaos, I chose **creativity over destruction**.  
+🔹 **Terminal Hacks 2077** — glowing banners, AI-powered shells.  
+🔹 **Visual Hacks** — <span style="color:cyan">neon UIs</span>, glitch animations.  
+🔹 **App Hacks** — futuristic mobile tools wrapped in APKs.  
+🔹 **Story Hacks** — <span style="color:#39FF14">cyberpunk narratives</span> in code.  
+🔹 **Future Hacks** — AI, crypto, VR, <span style="color:#FF073A">quantum-style experiments</span>.  
 
-- 💻 I started with small scripts that bent the terminal to my personality.  
-- 🎨 I made HTML templates glow like neon nights.  
-- 📱 I learned how to wrap code into mobile apps and share them.  
-- 🔐 I explored security concepts to understand *why* systems break — and how to protect them.  
+---
+
+## 🌌 <span style="color:#39FF14">The Origin Story → Future Vision</span>
+
+Like *Mr. Robot*, I once stared into fragile systems.  
+But unlike Elliot’s chaos, I looked forward — beyond today.  
+
+- 💻 I hacked terminals into <span style="color:#39FF14">neon reflections</span>.  
+- 🤖 Explored <span style="color:cyan">AI & automation</span> as my digital allies.  
+- 🛰️ Imagined hacking not just machines, but <span style="color:#FF073A">entire realities</span>.  
+- 🔐 Studied systems to **protect tomorrow’s digital frontier**.  
 
 I am not Elliot. I am not fsociety.  
-I am **xevion1** — and this is my own rebellion:  
-A rebellion of **style, curiosity, and endless creation**.
+I am <span style="color:#39FF14">**xevion1**</span> —  
+a <span style="color:cyan">future-tech hacker</span> writing rebellion in neon lines.  
 
 ---
 
-## 🚀 Features in This Repo
+## 🚀 <span style="color:#FF073A">Repo Features</span>
 
-✔ Hacker-themed **HTML template**  
-✔ Blinking & glowing neon letters  
-✔ Matrix-style effects  
-✔ Contact section with WhatsApp & email links  
-✔ Story-driven README design  
+✔ Futuristic **HTML template** with hacker glow  
+✔ Blinking neon typography  
+✔ Matrix & glitch cyber visuals  
+✔ Story-driven hacker README  
+✔ <span style="color:#39FF14">Contact links with cyberpunk vibe</span>  
 
-Planned Expansions:  
-- 🎬 **Episode cards** for tutorials/projects  
-- 🟢 **Real Matrix rain canvas animation**  
-- 🎭 **Mr. Robot–inspired intro screens**  
-- 🌗 **Light/Dark neon toggle**  
+Planned Upgrades:  
+- 🎬 Cyber-Episodes  
+- 🟢 Matrix Rain VR backgrounds  
+- 🤖 AI interactive terminals  
+- 🌗 Neon Light/Dark mode  
 
 ---
 
-## 📱 Contact Me
+## 📡 <span style="color:cyan">Connect with Me</span>
 
 - **WhatsApp:** [+263780667006](https://wa.me/263780667006)  
-- **Email:** [xevion1@gmail.com](mailto:xevion1@gmail.com)
+- **Email:** [xevion1@gmail.com](mailto:xevion1@gmail.com)  
 
 ---
 
-## ⚖️ Ethical Note
+## ⚖️ <span style="color:magenta">Code of Ethics</span>
 
-The word *hacker* here is about:  
-🔹 **Curiosity** — finding out how things work.  
-🔹 **Creativity** — bending systems into art.  
-🔹 **Defense** — learning to secure what others ignore.  
+*In the neon future, “hacker” means:*  
+🟢 **Curiosity** — exploring tomorrow’s tech.  
+🔵 **Creativity** — bending systems into art.  
+🟣 **Defense** — building secure digital frontiers.  
 
-This project is **educational + creative** only.  
-No illegal activity — only inspiration and learning.  
+❌ No illegal activity.  
+✅ 100% educational, creative, and visionary.  
 
 ---
 
@@ -91,5 +85,5 @@ No illegal activity — only inspiration and learning.
 
 ---
 
-✨ _“My hacks are not just code — they’re stories written in neon.  
-I am **xevion1**, and this is only the beginning.”_
+✨ _“My hacks are not just code — they are **futures written in neon**.  
+I am <span style="color:#39FF14">xevion1</span>, and my rebellion is tomorrow.”_
